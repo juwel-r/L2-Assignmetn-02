@@ -14,7 +14,7 @@ Primary Key হলো কোন টেবিলের নির্ধারি�
 <b>Foreign Key</b>
 Foreign Key হলো Parent Table এবং Child Table এর মধ্যে সম্পর্ক স্থাপন করার মাধ্যম। Child Table এ Parent Table এর রেফারেন্স ধরে রাখার জন্য Child Table এ Parent Table এর Priamry Key বা অন্য যেকোন Key (যদি সেখানে UNIQUE Constraint থাকে বা Unique হয়) Foreign Key হিসাবে লিস্টেড করা হয়। কিন্তু Child Table এ ডাটা INSERT করার সময় Foreign Key এর Value যদি Parent Table এ Exist না করে তাহলে সেই ডাটা INSERT করা সম্ভব নয়।
 
-**4. What is the difference between the VARCHAR and CHAR data types?**
+**4. What is the difference between the VARCHAR and CHAR data types?** <br>
 <b>Answer: VARCHAR এবং CHAR এর মধ্যে পার্থক্য </b>
 
 <table style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
@@ -52,5 +52,5 @@ Foreign Key হলো Parent Table এবং Child Table এর মধ্যে 
   </tbody>
 </table>
 
-**5. Explain the purpose of the WHERE clause in a SELECT statement.**
+5. Explain the purpose of the WHERE clause in a SELECT statement.
 <b>Answer:</b> WHERE clause SELECT statement এ ব্যাবহার করা হয় কোন স্পেসিফিক কন্ডিশনের ভিত্তিতে টেবিলের ROW রিটার্ন করানোর জন্য।
